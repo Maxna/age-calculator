@@ -30,7 +30,13 @@ _Feel free to email me at [nardoni59@gmail.com](mailto:nardoni59@gmail.com) if y
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
 | Program will convert input age from years to seconds | 1 | 31,536,000 |
-
+| Program will return converted age from earth to mercury years | 1 year | 0.24 years |
+| Program will return converted age from earth to venus years | 1 year | 0.62 years |
+| Program will return converted age from earth to mars years | 1 year | 1.88 years |
+| Program will return converted age from earth to jupiter years | 1 year | 11.86 years |
+| Program will find the difference between two dates and return earth age in seconds | 1/1/2018 - 1/1/2017 | 31,536,000 |
+| Program will return how many years a person has left to live per planet, if applicable | age input: 55 (avg 65) | return: 10 |
+| Program will return how many years past life expectancy a user is per planet, if applicable | age input: 70 (avg 65) | return: 5 |
 
 
 
