@@ -24,4 +24,4 @@ class Planet {
   }
 }
 
-export {Planet};
+export { Planet };

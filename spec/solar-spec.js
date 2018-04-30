@@ -1,6 +1,7 @@
 import { Age } from './../src/earth.js';
 import { Planet } from './../src/planets.js';
-import { Life } from './../src/time.js';
+import { Life } from './../src/life.js';
+import { Dates } from './../src/time.js';
 
 describe('Age', function() {
   it('should convert input age from years to seconds', function() {
