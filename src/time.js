@@ -8,7 +8,7 @@ class Dates {
     let remainYear = otherYear - this.year;
     let remainMonth = otherMonth - this.month;
     let remainDay = otherDay - this.day;
-    let remainDate = (remainYear * 31536000)+(remainMonth * 31536000)+(remainDay * 31536000);
+    let remainDate = (remainYear * 31536000)+(remainMonth * 2592000)+(remainDay * 86400);
     return remainDate;
   }
 }

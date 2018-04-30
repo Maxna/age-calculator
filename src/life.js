@@ -1,5 +1,5 @@
 class Life {
-  constructor() {
+  constructor(years) {
     this.years = years;
   }
   expectency(lastYear){
@@ -7,7 +7,7 @@ class Life {
     if(time > 0){
       return time + "years left.";
     }else if (time < 0){
-      return math.abs(time) + "years late.";
+      return Math.abs(time) + "years late.";
     }
   }
 }
