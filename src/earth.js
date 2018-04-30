@@ -1,4 +1,4 @@
-class secAge {
+class Age {
   constructor(years){
     this.years = years;
   }
@@ -10,4 +10,4 @@ class secAge {
   }
 }
 
-export { secAge };
+export { Age };
