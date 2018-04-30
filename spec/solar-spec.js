@@ -44,9 +44,9 @@ describe('Dates', function() {
   it('should return the difference between two dates', function() {
     let otherDates = new Dates(2018,4,29);
     let earlyDates = new Dates(2017,4,29);
-
-
-
-    expect(twoDates.differentDate()).toEqual(31536000);
+    let currentDay = otherDates.getDate();
+    let currentMonth = otherDates.getMonth();
+    let currentYear = otherDates.getFullYear();
+    expect(earlyDates.differentDate(currentYear,currentMonth,currentDay)).toEqual(31536000);
   });
 });
