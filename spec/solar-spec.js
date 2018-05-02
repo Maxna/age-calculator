@@ -1,7 +1,7 @@
 import { Age } from './../src/earth.js';
 import { Planet } from './../src/planets.js';
 import { Life } from './../src/life.js';
-import { Date } from './../src/time.js';
+// import { Date } from './../src/time.js';
 
 describe('Age', function() {
   it('should convert input age from years to seconds', function() {
@@ -55,13 +55,15 @@ describe('Life', function() {
 
 describe('Date', function() {
   it('should return the difference between two dates', function() {
-    // let past = new Date(2017, 3, 20);
-    let present = new Date(2018, 3, 20);
-    console.log(present.getTime());
-    // let currentDay = presentDay.getDate();
-    // let currentMonth = presentDay.getMonth();
-    // let currentYear = presentDay.getFullYear();
-    // expect(past.calculate(present, past)).toEqual(31536000);
+    const present = new Date(2018, 3, 20);
+    const birthday = new Date(2017, 3, 20);
+    let today = present.getTime();
+    let past = birthday.getTime();
+
+    let calc = (today - past) / 1000;
+
+    expect(calc).toEqual(31536000);
+
   });
 
 });
