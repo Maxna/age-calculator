@@ -6,13 +6,13 @@
 
 ## Description
 
-_This website will calculate the users age by a planets solar year._
+_This website will calculate the users age by a planets solar year and calculate what their life expectancy might look like accordingly._
 
 ## Setup/Installation Requirements
 
 * Download and install a web browser
 * Clone repository on your local computer
-* Open index.html in web browser
+* Use npm test to view working tests
 
 ## Known Bugs
 
@@ -35,8 +35,8 @@ _Feel free to email me at [nardoni59@gmail.com](mailto:nardoni59@gmail.com) if y
 | Program will return converted age from earth to mars years | 1 year | 1.88 years |
 | Program will return converted age from earth to jupiter years | 1 year | 11.86 years |
 | Program will find the difference between two dates and return earth age in seconds | 1/1/2018 - 1/1/2017 | 31,536,000 |
-| Program will return how many years a person has left to live per planet, if applicable | age input: 55 (avg 65) | return: 10 |
-| Program will return how many years past life expectancy a user is per planet, if applicable | age input: 70 (avg 65) | return: 5 |
+| Program will return how many years a person has left to live based on a life expectancy | age input: 55 (avg 65) | return: "10 years left." |
+| Program will return how many years past life expectancy a user is based on life expectancy | age input: 70 (avg 65) | return: "5 years late." |
 
 
 
