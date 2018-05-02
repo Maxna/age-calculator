@@ -5,9 +5,9 @@ class Life {
   expectency(lastYear){
     let time = lastYear - this.years;
     if(time > 0){
-      return time + "years left.";
+      return time + " years left.";
     }else if (time < 0){
-      return Math.abs(time) + "years late.";
+      return Math.abs(time) + " years late.";
     }
   }
 }

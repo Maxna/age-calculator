@@ -9,17 +9,17 @@ class Planet {
   }
 
   venus() {
-    let venusAge = this.venus * (0.62);
+    let venusAge = this.years * (0.62);
     return venusAge;
   }
 
   mars() {
-    let marsAge = this.mars * (1.88);
+    let marsAge = this.years * (1.88);
     return marsAge;
   }
 
   jupiter() {
-    let jupiterAge = this.jupiter *(11.86);
+    let jupiterAge = this.years *(11.86);
     return jupiterAge;
   }
 }
