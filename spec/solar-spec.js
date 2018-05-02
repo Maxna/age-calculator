@@ -54,19 +54,14 @@ describe('Life', function() {
 });
 
 describe('Date', function() {
-  let smallDay;
-
-  beforeEach(function() {
-    smallDay = new Date(2017, 4, 20);
-  });
   it('should return the difference between two dates', function() {
-    let presentDay = new Date(2018, 4, 20);
-    let currentDay = presentDay.getDate();
-    let currentMonth = presentDay.getMonth();
-    let currentYear = presentDay.getFullYear();
-    expect(smallDay.yearsOld(currentYear, currentMonth, currentDay)).toEqual(31536000);
+    // let past = new Date(2017, 3, 20);
+    let present = new Date(2018, 3, 20);
+    console.log(present.getTime());
+    // let currentDay = presentDay.getDate();
+    // let currentMonth = presentDay.getMonth();
+    // let currentYear = presentDay.getFullYear();
+    // expect(past.calculate(present, past)).toEqual(31536000);
   });
-  console.log(smallDay);
-
 
 });
